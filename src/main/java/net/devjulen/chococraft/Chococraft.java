@@ -1,8 +1,11 @@
 package net.devjulen.chococraft;
 
 import com.mojang.logging.LogUtils;
+import net.devjulen.chococraft.registry.ModCreativeModeTabsRegistry;
+import net.devjulen.chococraft.registry.ModItemsRegistry;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.common.CreativeModeTabRegistry;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -25,6 +28,12 @@ public class Chococraft
     private static final Logger LOGGER = LogUtils.getLogger();
     public Chococraft() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        // Registry the creative mode tabs
+        ModCreativeModeTabsRegistry.register(modEventBus);
+
+        // Registry the mod items
+        ModItemsRegistry.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
