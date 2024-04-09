@@ -1,4 +1,4 @@
-package net.devjulen.chococraft.registry;
+package net.devjulen.chococraft.item;
 
 import net.devjulen.chococraft.Chococraft;
 import net.minecraft.world.item.Item;

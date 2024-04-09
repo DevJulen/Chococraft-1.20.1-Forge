@@ -1,11 +1,10 @@
 package net.devjulen.chococraft;
 
 import com.mojang.logging.LogUtils;
-import net.devjulen.chococraft.registry.ModCreativeModeTabsRegistry;
-import net.devjulen.chococraft.registry.ModItemsRegistry;
+import net.devjulen.chococraft.item.ModCreativeModeTabsRegistry;
+import net.devjulen.chococraft.item.ModItemsRegistry;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.common.CreativeModeTabRegistry;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
