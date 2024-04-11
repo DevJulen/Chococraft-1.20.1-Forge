@@ -19,6 +19,10 @@ public class ModCreativeModeTabsRegistry {
                         output.accept(ModItemsRegistry.MILK_CHOCOALTE_INGOT.get());
                         output.accept(ModItemsRegistry.DARK_CHOCOALTE_INGOT.get());
                         output.accept(ModItemsRegistry.WHITE_CHOCOALTE_INGOT.get());
+
+                        output.accept(ModItemsRegistry.MILK_CHOCOLATE_BAR.get());
+                        output.accept(ModItemsRegistry.DARK_CHOCOLATE_BAR.get());
+                        output.accept(ModItemsRegistry.WHITE_CHOCOLATE_BAR.get());
                     })
                     .build());
 
