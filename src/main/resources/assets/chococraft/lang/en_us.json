@@ -4,7 +4,19 @@
   "item.chococraft.white_chocolate_ingot": "White Chocolate Ingot",
   "item.chococraft.milk_chocolate_bar": "Milk Chocolate Bar",
   "item.chococraft.dark_chocolate_bar": "Dark Chocolate Bar",
-  "item.chococraft.white_chocolate_bar": "White Chocolate Bar"
+  "item.chococraft.white_chocolate_bar": "White Chocolate Bar",
+  "item.chococraft.almond": "Almond",
+  "item.chococraft.orange": "Orange",
+  "item.chococraft.strawberry": "Strawberry",
+  "item.chococraft.blueberry": "Blueberry",
+  "item.chococraft.raspberry": "Raspberry",
+  "item.chococraft.mint_leaf": "Mint Leaf",
+  "item.chococraft.milk_chocolate_almond_bar": "Milk Chocolate Almond Bar",
+  "item.chococraft.milk_chocolate_raspberry_bar": "Milk Chocolate Raspberry Bar",
+  "item.chococraft.dark_chocolate_orange_bar": "Dark Chocolate Orange Bar",
+  "item.chococraft.dark_chocolate_mint_bar": "Dark Chocolate Mint Bar",
+  "item.chococraft.white_chocolate_strawberry_bar": "White Chocolate Strawberry Bar",
+  "item.chococraft.white_chocolate_blueberry_bar": "White Chocolate Blueberry Bar",
 
   "creativetab.chococraft_tab": "Chococraft"
 }

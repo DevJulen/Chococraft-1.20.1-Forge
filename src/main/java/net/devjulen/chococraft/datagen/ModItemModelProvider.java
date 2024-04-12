@@ -22,10 +22,23 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItemsRegistry.DARK_CHOCOALTE_INGOT);
         simpleItem(ModItemsRegistry.WHITE_CHOCOALTE_INGOT);
 
+        simpleItem(ModItemsRegistry.MINT_LEAF);
+
         // FOOD ITEMS
         simpleItem(ModItemsRegistry.MILK_CHOCOLATE_BAR);
         simpleItem(ModItemsRegistry.DARK_CHOCOLATE_BAR);
         simpleItem(ModItemsRegistry.WHITE_CHOCOLATE_BAR);
+        simpleItem(ModItemsRegistry.ALMOND);
+        simpleItem(ModItemsRegistry.ORANGE);
+        simpleItem(ModItemsRegistry.STRAWBERRY);
+        simpleItem(ModItemsRegistry.BLUEBERRY);
+        simpleItem(ModItemsRegistry.RASPBERRY);
+        simpleItem(ModItemsRegistry.MILK_CHOCOLATE_ALMOND_BAR);
+        simpleItem(ModItemsRegistry.MILK_CHOCOLATE_RASPBERRY_BAR);
+        simpleItem(ModItemsRegistry.DARK_CHOCOLATE_ORANGE_BAR);
+        simpleItem(ModItemsRegistry.DARK_CHOCOLATE_MINT_BAR);
+        simpleItem(ModItemsRegistry.WHITE_CHOCOLATE_STRAWBERRY_BAR);
+        simpleItem(ModItemsRegistry.WHITE_CHOCOLATE_BLUEBERRY_BAR);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

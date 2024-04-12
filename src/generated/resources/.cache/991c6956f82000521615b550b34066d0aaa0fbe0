@@ -1,7 +1,19 @@
-// 1.20.1	2024-04-11T20:50:19.5427884	Item Models: chococraft
+// 1.20.1	2024-04-12T16:54:33.0037455	Item Models: chococraft
+74484d598aa136f3ef668b38cb16a5e1d73c9a5e assets/chococraft/models/item/almond.json
+b66a1fe51604747fdc8a148663d4ed3b9f8123ba assets/chococraft/models/item/blueberry.json
 74eb4b582da36e9812cfd27a6ae9ed6f374533ef assets/chococraft/models/item/dark_chocolate_bar.json
 7e1d9eb0a7c40cdfd9245d64eeea0e1d8ea31bbc assets/chococraft/models/item/dark_chocolate_ingot.json
+722656a0f69af2e03786ccc4adaba901d215e9c0 assets/chococraft/models/item/dark_chocolate_mint_bar.json
+cb726da4e0b6083b57361b223ff6d75bd68f72c8 assets/chococraft/models/item/dark_chocolate_orange_bar.json
+b4e5d092e2cdab75528a56e9cf28ef469be827b1 assets/chococraft/models/item/milk_chocolate_almond_bar.json
 0664d2d959040fccbd73f274b28defaf4e0a21ee assets/chococraft/models/item/milk_chocolate_bar.json
 41274f8df453915b52b2086fe63ab77360c18e1b assets/chococraft/models/item/milk_chocolate_ingot.json
+10a799bfb5ca0141b4db77fc9ff09f0380add44a assets/chococraft/models/item/milk_chocolate_raspberry_bar.json
+183829a471051693c1e737628f8c3125d112216b assets/chococraft/models/item/mint_leaf.json
+0be6341bfbdbe38bed44391481e8bfaac6e4b1d7 assets/chococraft/models/item/orange.json
+692c77f443f50f72fca47e06c1311f516a583162 assets/chococraft/models/item/raspberry.json
+a3a0906926acf7defcf78c282c90e2d2b309fd1c assets/chococraft/models/item/strawberry.json
 6e4bfb88cc4b074a6570a9d2a1486d82f71d0105 assets/chococraft/models/item/white_chocolate_bar.json
+352de2a636600df7b723ec47e28c64a1119e511d assets/chococraft/models/item/white_chocolate_blueberry_bar.json
 9f4e0ae7d3aa084a22282c81566361c4914ecc07 assets/chococraft/models/item/white_chocolate_ingot.json
+90bc425b77a73a99a487d28ac401aa1201628fea assets/chococraft/models/item/white_chocolate_strawberry_bar.json
