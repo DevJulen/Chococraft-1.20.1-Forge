@@ -18,5 +18,7 @@
   "item.chococraft.white_chocolate_strawberry_bar": "White Chocolate Strawberry Bar",
   "item.chococraft.white_chocolate_blueberry_bar": "White Chocolate Blueberry Bar",
 
-  "creativetab.chococraft_tab": "Chococraft"
+  "creativetab.chococraft_tab": "Chococraft",
+
+  "effects.chococraft.frost_walk": "Frost Walk"
 }

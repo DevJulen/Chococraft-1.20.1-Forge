@@ -21,7 +21,7 @@ public class DataGenerators {
         CompletableFuture<HolderLookup.Provider> lookUpProvider = event.getLookupProvider();
 
         //generator.addProvider(true, new ChocoBlockStateProvider(packOutput, existingFileHelper));
-        //generator.addProvider(true, new ChocoRecipeProvider(packOutput));
+        generator.addProvider(true, new ModRecipeProvider(packOutput));
         //generator.addProvider(true, ChocoLootTableProvider.create(packOutput));
         generator.addProvider(true, new ModItemModelProvider(packOutput, existingFileHelper));
         //generator.addProvider(event.includeServer(), new ChocoWorldGenProvider(packOutput, lookUpProvider));

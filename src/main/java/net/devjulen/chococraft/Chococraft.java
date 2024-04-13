@@ -1,6 +1,7 @@
 package net.devjulen.chococraft;
 
 import com.mojang.logging.LogUtils;
+import net.devjulen.chococraft.effect.ModEffects;
 import net.devjulen.chococraft.item.ModCreativeModeTabsRegistry;
 import net.devjulen.chococraft.item.ModItemsRegistry;
 import net.minecraft.world.level.block.Blocks;
@@ -33,6 +34,9 @@ public class Chococraft
 
         // Registry the mod items
         ModItemsRegistry.register(modEventBus);
+
+        // Registry the mod effects
+        ModEffects.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

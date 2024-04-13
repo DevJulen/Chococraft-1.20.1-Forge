@@ -40,6 +40,7 @@ public class ModItemsRegistry {
     public static final RegistryObject<Item> WHITE_CHOCOLATE_BLUEBERRY_BAR = ITEMS.register("white_chocolate_blueberry_bar",
             () -> new Item(new Item.Properties().food(ModFoods.WHITE_CHOCOLATE_BLUEBERRY_BAR)));
 
+    /* OTHER */
     public static final RegistryObject<Item> MILK_CHOCOALTE_INGOT = ITEMS.register("milk_chocolate_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> DARK_CHOCOALTE_INGOT = ITEMS.register("dark_chocolate_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> WHITE_CHOCOALTE_INGOT = ITEMS.register("white_chocolate_ingot", () -> new Item(new Item.Properties()));
