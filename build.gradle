@@ -85,6 +85,8 @@ minecraft {
         client {
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
             property 'forge.enabledGameTestNamespaces', mod_id
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
         }
 
         server {
@@ -113,15 +115,6 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
-    // Put repositories for dependencies here
-    // ForgeGradle automatically adds the Forge maven and Maven Central for you
-
-    // If you have mod jar dependencies in ./libs, you can declare them as a repository like so.
-    // See https://docs.gradle.org/current/userguide/declaring_repositories.html#sub:flat_dir_resolver
-    // flatDir {
-    //     dir 'libs'
-    // }
-
     maven {
         // location of the maven that hosts JEI files before January 2023
         name = "Progwml6's maven"
@@ -167,6 +160,7 @@ dependencies {
     // runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}-forge:${jei_version}")
 
     runtimeOnly(fg.deobf("curse.maven:croptopia-415438:4950345"))
+    runtimeOnly(fg.deobf("curse.maven:epherolib-885449:4889101"))
     runtimeOnly(fg.deobf("curse.maven:fdelight-398521:5051242"))
 
     // Example mod dependency using a mod jar from ./libs with a flat dir repository
